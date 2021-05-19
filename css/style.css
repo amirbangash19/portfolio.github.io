@@ -59,7 +59,11 @@ body{
     border-radius: 30px;
     animation: topBounce 3s ease-in-out infinite;
 }
-
+}
+.scroll-bar {
+  animation: topBounce 3s ease-in-out infinite;
+  transition: 4s all ease;
+}
 .scroll-bar span{
     border: 3px solid #A7A8A3;
     font-size: 10px;
